@@ -73,11 +73,6 @@ kanban/
 └── .env.example
 ```
 
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se à vontade para usar e adaptar.
 
 ---
 
