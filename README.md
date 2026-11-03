@@ -53,53 +53,6 @@ Durante o desenvolvimento deste projeto, pratiquei:
 
 ---
 
-## 🚀 Como executar o projeto
-
-### Pré-requisitos
-
-Para executar o projeto localmente, é necessário ter:
-
-- [Bun](https://bun.sh/) instalado
-- Uma conta no [Supabase](https://supabase.com/)
-- Um projeto criado no Supabase
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/yasminalba/kanban.git
-cd kanban
-```
-
-### 2. Instale as dependências
-
-```bash
-bun install
-```
-
-### 3. Configure as variáveis de ambiente
-
-Copie o arquivo de exemplo:
-
-```bash
-cp .env.example .env
-```
-
-Abra o `.env` e preencha com as credenciais do seu projeto Supabase (disponíveis em **Project Settings → API** no painel do Supabase):
-
-```env
-VITE_SUPABASE_URL=sua-url-aqui
-VITE_SUPABASE_ANON_KEY=sua-chave-aqui
-```
-
-### 4. Execute o projeto
-
-```bash
-bun run dev
-```
-
-O app estará disponível em `http://localhost:5173` (ou na porta indicada no terminal).
-
----
 
 ## 📦 Deploy
 
